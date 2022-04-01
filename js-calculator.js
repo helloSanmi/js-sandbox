@@ -34,5 +34,5 @@ else {
     alert('Invalid selection')
 }
 
-//final result
+//display result
 alert('Result for '+operation+ ': ' +result)
