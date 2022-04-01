@@ -2,6 +2,8 @@
 
 //declare global variables
 let firstNum, secondNum, result;
+let userInput;
+let operation;
 
 //prompt user to select operation
 userInput = parseInt(prompt('Welcome, which operation will you like to perform:\n Press 1 for Addition \n Press 2 for Subtraction \n Press 3 for Multiplication \n Press 4 for Division'))
