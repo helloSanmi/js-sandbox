@@ -28,31 +28,35 @@ userInput = parseInt(prompt('Welcome, which operation will you like to perform:\
 firstNum = parseFloat(prompt('Enter the first number'));
 secondNum = parseFloat(prompt('Enter the second number'));
 
+if (isNaN(firstNum, secondNum) || Number.isInteger(firstNum, secondNum)===false) {
+    alert('Wrong calculation')
+}
+
 //conditional statement for the operations
-if (userInput === 1){
+if (isNaN(userInput) || userInput < 0 || userInput > 4 || Number.isInteger(userInput)===false){
+    alert('Invalid number! You have entered a wrong input')
+}
+else { 
+    if (userInput === 1){
         result = add(firstNum, secondNum)
         operation = 'Addition'
     }
-else if (userInput === 2){
+    else if (userInput === 2){
         result = subt(firstNum, secondNum)
         operation = 'Subtraction'
     }
-else if (userInput === 3){
+    else if (userInput === 3){
         result = multy(firstNum, secondNum)
         operation = 'Multiplication'
     }
-else if (userInput === 4){
+    else if (userInput === 4){
         result = divs(firstNum, secondNum)
         operation = 'Division'
     }
-else if(userInput > 4){
-        alert('Invalid operation')
-    }
-else {
+    else {
         alert('Invalid selection')
     }
+}
 
 //final result
 alert('Result for '+operation+ ': ' +result)
-
-
