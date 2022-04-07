@@ -1,3 +1,4 @@
+//first array
 var array = ['Banana', 'Apples', 'Oranges', 'Blueberries'];
 
 console.log(array)
@@ -5,11 +6,7 @@ console.log(array)
 array.shift()
 console.log(array)
 
-//diplay the shifted element
-// let eShift = array.shift()
-// console.log(eShift)
-
-// //sort the array in order
+//sort the array in order
 array.sort()
 
 //put 'Kiwi' at the end of the array
@@ -20,3 +17,8 @@ delete array[0];
 
 //sort the array in reverse order
 array.reverse()
+
+//second array
+var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+
+console.log(array2[1][1])
