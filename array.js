@@ -13,7 +13,7 @@ array.sort()
 array.push('Kiwi')
 
 //remove 'Apples' from the array
-delete array[0];
+array.shift()
 
 //sort the array in reverse order
 array.reverse()
