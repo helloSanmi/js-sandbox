@@ -11,15 +11,15 @@ var database = [user];
 var newsfeed = [
   {
     username: "marvelous",
-    timeline: ""
+    timeline: "You are amazing"
   },
   {
     username: "buju",
-    timeline: ""
+    timeline: "Try me I fit show you"
   },
   {
     username: "olamide",
-    timeline: ""
+    timeline: "Who dey breet"
   }
 ];
 
