@@ -62,6 +62,6 @@ var database = [
     return result;
   }
  
-//call function and display
+//test function
 console.log(signIn("dupe", "password123"));
   
