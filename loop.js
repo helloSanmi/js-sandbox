@@ -47,7 +47,8 @@ var database = [
   
 //sign-in function
   function signIn (username, password) {
-    for (var i=0; i<database.length; i++) {
+      let result;
+    for (var i=0; database[i]; i++) {
         if (username === database[i].username 
                 && password === database[i].password){
             result = "Username: "+ database[i].username 
