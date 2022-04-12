@@ -1,8 +1,8 @@
 //function to calculate sum of even numbers
 function sumofEvenNum(num){
-  let sum = 0, result, i=1;
+  let sum = 0, result;
   //sum of even numbers
-  for(; i <= num; i++){
+  for(i=1; i <= num; i++){
     if (i % 2 === 0){
       sum = sum + i;
       }
@@ -13,8 +13,8 @@ function sumofEvenNum(num){
 
 //function takes two input and output the sum of even numbers
 function sumofTwoEvenNum(firstNum, secondNum){
-   let sum=0, result, i=firstNum;
-   for(; i<=secondNum; i++){
+   let sum=0, result;
+   for(i=firstNum; i<=secondNum; i++){
      if(i % 2 === 0){
        sum = sum + i;
      }
