@@ -49,7 +49,7 @@ var database = [
 //check the username and password
   function signIn (username, password) {
       let result;
-    for (var i=0; database[i]; i++) {
+    for (var i in database) {
         if (username === database[i].username 
                 && password === database[i].password){
             result = "Username: "+ database[i].username 
