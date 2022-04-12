@@ -1,4 +1,4 @@
-//object with username and password properties
+//creating object using object literal
 var user = {
   username: "ajayi",
   password: "goforit"
