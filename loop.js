@@ -1,10 +1,11 @@
+//user variable
 var user = {
     username: "ajayi",
     password: "usersecret",
     status: "Available"
   };
 
-// prompt for input
+// prompt for user credentials
 //   let userInput = prompt("Enter Username: ")
 //   let passInput = prompt("Enter Password: ")
 //   let statusUpdate = prompt("What is your status today: ")
@@ -45,7 +46,7 @@ var database = [
     
   ];
   
-//sign-in function
+//check the username and password
   function signIn (username, password) {
       let result;
     for (var i=0; database[i]; i++) {
