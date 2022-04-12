@@ -24,4 +24,4 @@ function sumofTwoEvenNum(firstNum, secondNum){
  }
 
 console.log(sumofEvenNum(10));
-console.log(sumofTwoEvenNum(1, 10);
+console.log(sumofTwoEvenNum(1, 10));
