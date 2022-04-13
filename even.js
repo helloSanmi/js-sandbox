@@ -14,13 +14,17 @@ function sumofEvenNum(num){
     return result;
   }
 
-//function takes two input and output the sum of even numbers
-function sumofTwoEvenNum(firstNum, secondNum){
-   let sum=0, result;
-    if(typeof firstNum !== "number" || typeof secondNum !== "number"){
-    return "Not a number"
+//function takes two numbers and sum even numbers between them
+ function sumofTwoEvenNum(firstNum, secondNum){
+  if(typeof firstNum !== "number" 
+      || typeof secondNum !== "number"){
+    return "Invalid number supplied!"
   }
-   for(let i=firstNum; i<=secondNum; i++){
+  if(firstNum > secondNum){
+    return "Start number is greater!"
+  }
+   let sum=0, result, i;
+   for(i=firstNum; i<=secondNum; i++){
      if(i % 2 === 0){
        sum = sum + i;
      }
