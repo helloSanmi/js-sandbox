@@ -16,21 +16,24 @@ function sumofEvenNum(num){
 
 //function takes two numbers and sum even numbers between them
  function sumofTwoEvenNum(firstNum, secondNum){
+   let result;
   if(typeof firstNum !== "number" 
       || typeof secondNum !== "number"){
-    return "Invalid number supplied!"
+    result = "Invalid number supplied!"
   }
-  if(firstNum > secondNum){
-    return "Start number is greater!"
+ else if(firstNum > secondNum){
+    result = "Start number is greater!"
   }
-   let sum=0, result, i;
+ else {
+   let sum=0, i;
    for(i=firstNum; i<=secondNum; i++){
      if(i % 2 === 0){
        sum = sum + i;
      }
    }
    result = `The Sum of Even numbers between (${firstNum} and ${secondNum}) is ${sum}`;
-  return result
+  }
+  return result;
  }
 
 console.log(sumofEvenNum(10));
