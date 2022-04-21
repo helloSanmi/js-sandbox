@@ -58,5 +58,5 @@ else {
     }
 }
 
-//final result
+//display final result
 alert('Result for '+operation+ ': ' +result)
