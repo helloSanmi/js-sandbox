@@ -28,7 +28,7 @@ console.log(arrayInclude)
 // #3) Create a function that calculates the power of 100 of a number entered as a parameter
 const powerCal = num => num**100;
 
-// calculate the power of 100 with Math method
+// calculate the power of 100 with Math object
 const powerCalMathfunction = (num => Math.pow(num, 100));
 
 
