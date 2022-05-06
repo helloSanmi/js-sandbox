@@ -13,15 +13,21 @@ let name = 'John';
 let array = [];
 dragons1.forEach(user => {
     if(user.includes(name)){
-       array.push(user);
+       array.push(user)
+    //    console.log(user.includes(name))
     }
 });
 console.log(array);
 
-
 //another trial for question #2
 const arrayInclude = dragons1.filter(user => user.includes(name));
-console.log(arrayInclude);
+console.log(arrayInclude)
+
+
+//Check if this array includes the name "Sandy" and return that name or names in an array
+const dragons2 = ['Tim', 'Johnathan', 'Sandy', 'Sarah', 'John'];
+const arrayInc = dragons2.filter(user => user === 'Sandy');
+console.log(arrayInc);
 
 
 // #3) Create a function that calculates the power of 100 of a number entered as a parameter
